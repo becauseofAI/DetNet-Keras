@@ -192,17 +192,3 @@ if __name__=='__main__':
     plot_model(model, to_file='detnet59.png')
     model.compile(optimizer='sgd', loss='categorical_crossentropy')
     print('Model Compiled')
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
