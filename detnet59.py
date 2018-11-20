@@ -2,6 +2,7 @@
 version:
 TensorFlow==1.7.0
 Keras==2.2.4
+Python==3.6.5
 '''
 from keras.models import Model
 from keras.layers import Input, Dense, Flatten
@@ -177,8 +178,7 @@ if __name__=='__main__':
     # create a keras model detnet_59
     inputs = Input(shape=(224,224,3), name='inputs')
     filters_list=[[64],
-                  [64,64,256],
-                  
+                  [64,64,256],                  
                   [128,128,512],
                   [256,256,1024],
                   [256,256,256],
